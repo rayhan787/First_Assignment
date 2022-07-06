@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+#banner{
+    background-image: url(../images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_content{
+    width: 826px;
+    height: 320px;
+    margin: auto;
+    padding: 175px 0;
+    text-align: center;
+}
+.banner_content h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+.banner_content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    line-height: 28px;
+    padding: 10px 80px;
+    margin-bottom: 30px;
+}
+.donation-btn {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #FF5959;
+    padding:20px;
+    border-radius: 5px;
+}
+#donate_today_section{
+    background-color: #fff;
+}
+.section_heading{
+    width: 870px;
+    margin: auto;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom:35px ;
+}
+.section_heading h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+}
+.section_heading p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #707070;
+    line-height: 28px;
+    padding: 10px 90px;
+}
+.container{
+    width: 760px;
+    margin: auto;
+    display: flex;
+}
+.container_item{
+    width: 135px;
+    padding: 45px 15px;
+    text-align: center;
+    background-color: #FAFAFA;
+    margin:0 10px 35px;
+    border-radius: 10px;
+}
+.container_item h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #707070;
+}
+.highlight_item{
+    background-color: #FFEEEE;
+}
+.highlight_item h3{
+    color: #FF5959;
+}
+.inputAndBtn{
+    width: 765px;
+    margin:0 auto 50px;
+    text-align: center;
+}
+.inputAndBtn input{
+    width:100% ;
+    border: none;
+    border-bottom: 2px solid #DADADA;
+    text-align: center;
+    color: #B3B3B3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom:40px ;
+}
+.dnt_plan_item img{
+    width: 30px;
+    height: 30px;
+}

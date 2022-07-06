@@ -50,14 +50,14 @@ body{
 #donate_today_section{
     background-color: #fff;
 }
-.section_heading{
+.section_header{
     width: 870px;
     margin: auto;
     text-align: center;
     padding-top: 130px;
     padding-bottom:35px ;
 }
-.section_heading h2{
+.section_header h2{
     font-family: 'Inter', sans-serif;
     font-size: 45px;
     font-weight: 700;
@@ -65,14 +65,14 @@ body{
     text-transform: capitalize;
     color: #000;
 }
-.section_heading p{
+.section_header p{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
     color: #707070;
     line-height: 28px;
-    padding: 10px 90px;
+    padding: 10px 144px;
 }
 .container{
     width: 760px;
@@ -117,7 +117,8 @@ body{
     text-align: center;
     line-height: 28px;
     margin-bottom:40px ;
-}#donate_plan_section{
+}
+#donate_plan_section{
     background-color: #fff;
     padding: 20px;
 }
@@ -135,7 +136,7 @@ body{
     background-color: rgba(255, 89, 89, .2);
 }
 .bgOfLastItem{
-    background-color: rgba(255, 244, 214, .2);
+    background-color: rgba(255, 244, 214, .9);
 }
 .dnt_plan_item img{
     width: 50px;
@@ -155,4 +156,54 @@ body{
     font-weight: 400;
     color:#707070;
     padding: 30px 20px 0 0;
+}
+.subscription{
+    width: 810px;
+    margin: auto;
+    text-align: center;
+    background-color: #AA9F9F;
+    padding: 70px 0;
+    margin-bottom: 50px;
+}
+.subscription input[type=email]{
+    width: 275px;
+    border: none;
+    background-color: #D9D9D9;
+    padding:14px 0 14px 5px;
+    color: #000000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.subscription input[type=button]{
+    background-color: #FF5959;
+    border: none;
+    padding:14px 40px;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin: -4px;
+    cursor: pointer;
+}
+#footer{
+    background-color: #000;
+    text-align: center;
+    padding: 45px 0;
+}
+#footer h3{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FF5959;
+    text-transform: capitalize;
+}
+#footer p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #D9DBE1;
 }
